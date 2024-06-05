@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Главная страница</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#" id="contacts-link">Контакты</a></li>
+            </ul>
+        </nav>
+    </header>
+    <div class="contact-block" id="contact-block">
+        <button id="toggle-button">&lt;</button>
+        <nav>
+            <ul>
+                <li><a href="https://vk.com/live2sputch" target="_blank">VK</a></li>
+                <li><a href="https://t.me/happmax" target="_blank">Telegram</a></li>
+                <li><a href="https://github.com/happykoko1994" target="_blank">GitHub</a></li>
+                <li><a href="mailto:max-goryachev@ya.ru">Email</a></li>
+            </ul>
+        </nav>
+    </div>
+    <div class="slider">
+        <div class="slider-controls">
+            <button id="prev">&lt;</button>
+            <span id="slide-number"><span class="current-slide">01</span>/<span class="total-slides">03</span></span>
+            <button id="next">&gt;</button>
+        </div>
+        <div class="slides">
+            <img src="./images/forest.png" alt="Image 3">
+            <img src="./images/cases.png" alt="Image 1">
+            <img src="./images/promo.png" alt="Image 2">
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
